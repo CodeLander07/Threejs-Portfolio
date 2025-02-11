@@ -11,14 +11,20 @@ export const navLinks = [
   },
   {
     id: 3,
+    name: 'Projects',
+    href: 'https://github.com/unstopablesid',
+  },
+  {
+    id: 4,
     name: 'Work',
     href: '#work',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Contact',
     href: '#contact',
   },
+  
 ];
 
 export const clientReviews = [
