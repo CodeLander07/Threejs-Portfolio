@@ -64,13 +64,13 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
+    title: 'GHRhack-1.0 ',
     desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+      'Built a Hackathon Website with React, Tailwind CSS, GSAP designed for optimal performance and scalability.',
+    href: 'https://ghrhack.live',
+    texture: '/textures/project/Project1.mp4',
+    logo: '/assets/GHRHack.jpg',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -88,16 +88,7 @@ export const myProjects = [
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
       },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      
     ],
   },
   {
@@ -105,7 +96,7 @@ export const myProjects = [
     desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
     subdesc:
       'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+    href: '',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
