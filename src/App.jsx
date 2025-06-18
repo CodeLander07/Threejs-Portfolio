@@ -11,13 +11,13 @@ import { Projector } from 'three-stdlib';
 const App = () => {
   return (
     <main className="max-w-7xl mx-auto relative">
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <About />
       <WorkExperience />
-      <Contact />
-      <Footer /> */}
       <Projects />
+      <Contact />
+      <Footer />
     </main>
   );
 };

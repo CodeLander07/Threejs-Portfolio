@@ -92,13 +92,13 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Holiday Homes',
+    desc: 'A full-stack hotel booking website where users can browse listings, view details, and manage bookings.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: '',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+      'Users can list,Check,update,delete and book a hotels , by using Express.js,ejs, MongoDB',
+    href: 'https://github.com/CodeLander07/Hotel-Booking-Website',
+    texture: '/textures/project/Project2.mp4',
+    logo: '/assets/icon.svg',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -111,31 +111,17 @@ export const myProjects = [
         name: 'React.js',
         path: '/assets/react.svg',
       },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Ai-Code-Reviewer',
+    desc: 'The AI Code Reviewer is a full-stack web application that leverages artificial intelligence to automatically review source code, provide constructive feedback, and improve code quality.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+      'Built using the MERN stack (MongoDB, Express.js, React.js, Node.js) or Next.js, and integrated with powerful LLMs Gemini this tool empowers developers by simulating real-time code reviews—just like having a senior developer on-demand.',
+    href: 'https://github.com/CodeLander07/Ai-Code-Reviewer',
+    texture: '/textures/project/Project3.mp4',
+    logo: '/assets/code.svg',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -168,10 +154,10 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Employee-Management-System',
+    desc: 'The Employee Management System (EMS) is a robust and user-friendly full-stack web application designed to simplify and digitize the management of employee data within an organization',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+      'Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this platform offers a centralized solution for HR teams and managers to maintain, monitor, and manage all employee records effectively.',
     href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
@@ -192,55 +178,11 @@ export const myProjects = [
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
       },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      
     ],
   },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
+  
+    
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
