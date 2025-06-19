@@ -70,13 +70,13 @@ export const myProjects = [
       'Built a Hackathon Website with React, Tailwind CSS, GSAP designed for optimal performance and scalability.',
     href: 'https://ghrhack.live',
     texture: '/textures/project/Project1.mp4',
-    logo: '/assets/GHRHack.jpg',
+    logo: '/assets/GHR-logo.svg',
     logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
-    spotlight: '/assets/spotlight1.png',
+    spotlight: '/assets/spotlight2.png',
     tags: [
       {
         id: 1,
@@ -105,11 +105,11 @@ export const myProjects = [
     texture: '/textures/project/Project2.mp4',
     logo: '/assets/icon.svg',
     logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
-    spotlight: '/assets/spotlight2.png',
+    spotlight: '/assets/spotlight1.png',
     tags: [
       {
         id: 1,
@@ -183,8 +183,8 @@ export const myProjects = [
     desc: 'The Employee Management System (EMS) is a robust and user-friendly full-stack web application designed to simplify and digitize the management of employee data within an organization',
     subdesc:'Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this platform offers a centralized solution for HR teams and managers to maintain, monitor, and manage all employee records effectively.',
     href: 'https://github.com/CodeLander07/Employee-Management-System',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    texture: '/textures/project/Project4.mp4',
+    logo: '/assets/EMS.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -206,6 +206,21 @@ export const myProjects = [
         id: 3,
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'Express.js',
+        path: 'assets/Express.svg',
+      },
+      {
+        id: 3,
+        name: 'Node.js',
+        path: 'assets/Node.js.svg',
+      },
+      {
+        id: 3,
+        name: 'MongoDB',
+        path: 'assets/MongoDB.svg',
       },
       
     ],
