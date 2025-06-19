@@ -81,7 +81,7 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/React.svg',
+        path: 'assets/React.svg',
       },
       {
         id: 2,
@@ -154,7 +154,7 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/React.svg',
+        path: 'assets/React.svg',
       },
       {
         id: 2,
@@ -195,7 +195,7 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/React.svg',
+        path: 'assets/React.svg',
       },
       {
         id: 2,
