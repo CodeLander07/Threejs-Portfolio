@@ -12,7 +12,7 @@ export const navLinks = [
   {
     id: 3,
     name: 'Projects',
-    href: 'https://github.com/unstopablesid',
+    href: '#projects',
   },
   {
     id: 4,
@@ -81,12 +81,17 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: '/assets/React.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'JavaScript',
+        path: 'assets/JavaScript.svg',
       },
       
     ],
@@ -108,8 +113,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Node.js',
+        path: 'assets/Node.js.svg',
+      },
+      {
+        id: 2,
+        name: 'mongoDB',
+        path: 'assets/MongoDB.svg',
+      },
+      {
+        id: 3,
+        name: 'Express.js',
+        path: 'assets/Express.svg',
+      },
+      {
+        id: 4,
+        name: 'Css',
+        path: 'assets/CSS3.svg',
       },
       
     ],
@@ -134,7 +154,7 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: '/assets/React.svg',
       },
       {
         id: 2,
@@ -143,22 +163,26 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'JavaScript',
+        path: '/assets/Node.js.svg',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Express.js',
+        path: '/assets/Express.svg',
+      },
+      {
+        id: 5,
+        name: 'MongoDB',
+        path: '/assets/MongoDB.svg',
       },
     ],
   },
   {
     title: 'Employee-Management-System',
     desc: 'The Employee Management System (EMS) is a robust and user-friendly full-stack web application designed to simplify and digitize the management of employee data within an organization',
-    subdesc:
-      'Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this platform offers a centralized solution for HR teams and managers to maintain, monitor, and manage all employee records effectively.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    subdesc:'Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this platform offers a centralized solution for HR teams and managers to maintain, monitor, and manage all employee records effectively.',
+    href: 'https://github.com/CodeLander07/Employee-Management-System',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -171,10 +195,15 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: '/assets/React.svg',
       },
       {
         id: 2,
+        name: 'Vite.js',
+        path: '/assets/Vite.js.svg',
+      },
+      {
+        id: 3,
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
       },

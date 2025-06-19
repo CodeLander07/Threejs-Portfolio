@@ -65,7 +65,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="c-space my-20" id="contact">
+    <section className="c-space my-20 m-[10rem]" id="contact">
       {alert.show && <Alert {...alert} />}
 
       <div className="relative min-h-screen flex items-center justify-center flex-col">
@@ -73,10 +73,6 @@ const Contact = () => {
 
         <div className="contact-container mt-4 p-4 sm:p-8">
           <h3 className="head-text mt-4 text-center sm:text-left">Let's talk</h3>
-          <p className="text-lg text-white-600 mt-3 text-center sm:text-left">
-            Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
-            life, I’m here to help.
-          </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-10 flex flex-col space-y-4 ">
             <label className="space-y-3">

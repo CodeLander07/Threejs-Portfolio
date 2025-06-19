@@ -4,6 +4,7 @@ import Footer from './sections/Footer.jsx';
 import Navbar from './sections/Navbar.jsx';
 import Contact from './sections/Contact.jsx';
 import Projects from './sections/Projects.jsx';
+import Client from './sections/Clients.jsx';
 
 import WorkExperience from './sections/Experience.jsx';
 import { Projector } from 'three-stdlib';
@@ -16,6 +17,7 @@ const App = () => {
       <About />
       <WorkExperience />
       <Projects />
+      {/* <Client /> */}
       <Contact />
       <Footer />
     </main>
