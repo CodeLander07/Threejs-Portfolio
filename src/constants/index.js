@@ -73,7 +73,7 @@ export const myProjects = [
     subdesc:
       'Built a Hackathon Website with React, Tailwind CSS, GSAP designed for optimal performance and scalability.',
     href: 'https://ghrhack.live',
-    texture: '/textures/project/Project1.mp4',
+    texture: 'textures/project/Project1.mp4',
     logo: '/assets/GHR-logo.svg',
     logoStyle: {
       backgroundColor: '#13202F',
@@ -157,8 +157,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: 'assets/React.svg',
+        name: 'React',
+        path: 'assets/React.js.svg',
       },
       {
         id: 2,
@@ -198,8 +198,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: 'assets/React.svg',
+        name: 'React',
+        path: 'assets/React.js.svg',
       },
       {
         id: 2,
