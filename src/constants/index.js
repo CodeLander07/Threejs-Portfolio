@@ -1,3 +1,7 @@
+
+
+
+
 export const navLinks = [
   {
     id: 1,
@@ -80,8 +84,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: 'assets/React.svg',
+        name: 'Reactjs',
+        path: 'assets/React.js.svg',
       },
       {
         id: 2,
