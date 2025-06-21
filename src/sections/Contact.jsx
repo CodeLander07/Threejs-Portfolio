@@ -1,6 +1,5 @@
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
-
 import useAlert from '../hooks/useAlert.js';
 import Alert from '../components/Alert.jsx';
 
@@ -20,21 +19,14 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: 'Mayur Nikumbh',
-          from_email: form.email,
-          to_email: 'Mayurnikumbh2004@gmail.com',
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
-      )
+    emailjs.sendForm(
+      'service_yr2jq2j',
+      'template_hyy50zi',
+      formRef.current,
+      'Onm6NOm5-iNlhxWQ-',
+    )
       .then(
-        () => {
+      () => {
           setLoading(false);
           showAlert({
             show: true,
@@ -42,14 +34,15 @@ const Contact = () => {
             type: 'success',
           });
 
+          setForm({
+            name: '',
+            email: '',
+            message: '',
+          });
+
           setTimeout(() => {
-            hideAlert(false);
-            setForm({
-              name: '',
-              email: '',
-              message: '',
-            });
-          }, [3000]);
+            hideAlert();
+          }, 3000);
         },
         (error) => {
           setLoading(false);
