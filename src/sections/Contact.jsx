@@ -2,7 +2,7 @@ import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 import useAlert from '../hooks/useAlert.js';
 import Alert from '../components/Alert.jsx';
-const  SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
@@ -22,12 +22,13 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.sendForm(
-      'service_yr2jq2j',
-      'template_hyy50zi',
-      formRef.current,
-      'Onm6NOm5-iNlhxWQ-',
-    )
+
+  emailjs.sendForm(
+  SERVICE_ID,
+  TEMPLATE_ID,
+  formRef.current,
+  PUBLIC_KEY,
+)
       .then(
       () => {
           setLoading(false);
