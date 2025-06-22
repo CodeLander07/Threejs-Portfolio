@@ -1,5 +1,5 @@
 
-import project1 from '/textures/project/Project1.mp4';
+
 
 
 export const navLinks = [
@@ -73,7 +73,7 @@ export const myProjects = [
     subdesc:
       'Built a Hackathon Website with React, Tailwind CSS, GSAP designed for optimal performance and scalability.',
     href: 'https://ghrhack.live',
-    texture: project1,
+    texture: '/textures/project/Ghrhack.mp4',
     logo: '/assets/GHR-logo.svg',
     logoStyle: {
       backgroundColor: '#13202F',
