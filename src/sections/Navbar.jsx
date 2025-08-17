@@ -38,7 +38,7 @@ const Navbar = () => {
           <nav className="sm:flex hidden">
             <NavItems />
             <button className="ml-4 bg-neutral-800 text-white px-4 py-2 rounded hover:bg-neutral-700 transition-colors">
-              <a href="https://drive.google.com/file/d/1q0Je_43J_tbIglmBguIWSRXw-7z76Oej/view?usp=sharing" target='blank'>Resume</a>
+              <a href="https://drive.google.com/file/d/12vVUEdAcgZ2nk5AbcGKEKxCNEMS1fBnu/view?usp=sharing" target='blank'>Resume</a>
             </button>
           </nav>
             
