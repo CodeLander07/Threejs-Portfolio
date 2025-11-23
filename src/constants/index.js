@@ -29,6 +29,11 @@ export const navLinks = [
     name: 'Contact',
     href: '#contact',
   },
+  {
+    id: 6,
+    name: 'Resume',
+    href: 'https://drive.google.com/file/d/12vVUEdAcgZ2nk5AbcGKEKxCNEMS1fBnu/view?usp=sharing',
+  }
   
 ];
 

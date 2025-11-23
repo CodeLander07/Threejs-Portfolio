@@ -23,12 +23,10 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-center py-5 mx-auto c-space">
-          <a href="https://www.linkedin.com/in/mayur-nikumbh" target='blank' className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
-            CodeLander_07
-          </a>
+        <div className="flex justify-center items-center py-5 mx-auto c-space">
+          
 
-          <button
+        <button
             onClick={toggleMenu}
             className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex"
             aria-label="Toggle menu">
@@ -37,9 +35,7 @@ const Navbar = () => {
 
           <nav className="sm:flex hidden">
             <NavItems />
-            <button className="ml-4 bg-neutral-800 text-white px-4 py-2 rounded hover:bg-neutral-700 transition-colors">
-              <a href="https://drive.google.com/file/d/12vVUEdAcgZ2nk5AbcGKEKxCNEMS1fBnu/view?usp=sharing" target='blank'>Resume</a>
-            </button>
+            
           </nav>
             
         </div>
