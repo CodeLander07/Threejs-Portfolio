@@ -6,7 +6,7 @@ const NavItems = ({ onClick = () => {} }) => (
   <ul className="nav-ul text-xl" >
     {navLinks.map((item) => (
       <li key={item.id} className="nav-li" >
-        <a href={item.href} className="nav-li_a"  onClick={onClick}>
+        <a href={item.href} className="nav-li_a"  onClick={onClick} target={item.target ? item.target : '_self'}>
           {item.name}
         </a>
       </li>

@@ -93,6 +93,7 @@ const Projects = () => {
             </Center>
             <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
           </Canvas>
+          {/* <video src="/textures/project/Ghrhack.mp4" height="100%" width="100%" autoPlay muted loop></video> */}
         </div>
       </div>
     </section>

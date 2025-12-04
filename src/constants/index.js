@@ -33,6 +33,7 @@ export const navLinks = [
     id: 6,
     name: 'Resume',
     href: 'https://drive.google.com/file/d/1Sgxl5Giq4JGhP6uVuBC4JvoSxinOfFGu/view?usp=drive_link',
+    target: '_blank'
   }
   
 ];
@@ -260,5 +261,14 @@ export const workExperiences = [
     icon: '/assets/GHRHack.jpg',
     animation: 'victory',
   },
+  {
+    id: 2,
+    name: 'Aneero Private Limited',
+    pos: 'FullStack Developer Intern',
+    duration: '1 Nov 2025 to 6 June 2026',
+    title: "Aneero Private Limited is an Indian company that operates as a full-stack product and growth studio, helping startups and digital businesses with technology, strategy, and creative execution. The company focuses on building digital products like web and mobile applications and offers services in areas such as brand strategies and growth systems",
+    icon: '/assets/Aneero.svg',
+    animation: 'work',
+  }
 
 ];
